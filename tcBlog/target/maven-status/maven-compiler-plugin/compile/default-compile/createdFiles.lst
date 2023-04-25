@@ -1,0 +1,4 @@
+com\tc\controller\BlogLoginController.class
+com\tc\config\SecurityConfig.class
+com\tc\tcBlogApplication.class
+com\tc\controller\ArticleController.class
