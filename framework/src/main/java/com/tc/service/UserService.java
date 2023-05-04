@@ -1,6 +1,7 @@
 package com.tc.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.tc.domain.ResponseResult;
 import com.tc.domain.entity.User;
 
 
@@ -12,5 +13,6 @@ import com.tc.domain.entity.User;
  */
 public interface UserService extends IService<User> {
 
+    ResponseResult userInfo();
 }
 
