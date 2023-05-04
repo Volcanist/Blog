@@ -1,11 +1,10 @@
 package com.tc.controller;
 
 import com.tc.domain.ResponseResult;
+import com.tc.domain.entity.User;
 import com.tc.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/user")
@@ -17,5 +16,10 @@ public class UserController {
     @GetMapping("/userInfo")
     public ResponseResult userInfo(){
         return userService.userInfo();
+    }
+
+    @PutMapping("/userInfo")
+    public ResponseResult updateUserInfo(@RequestBody User user){
+        return userService.updateUserInfo();
     }
 }

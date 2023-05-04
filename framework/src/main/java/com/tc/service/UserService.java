@@ -14,5 +14,7 @@ import com.tc.domain.entity.User;
 public interface UserService extends IService<User> {
 
     ResponseResult userInfo();
+
+    ResponseResult updateUserInfo();
 }
 
