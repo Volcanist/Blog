@@ -20,3 +20,7 @@ mybatis-plus:
       logic-delete-value: 1
       logic-not-delete-value: 0
       id-type: auto
+oss:
+  accessKey: XYLX1tdcS8Hap5sS6S7BTcGYVky0bfk5jXW-VF0x
+  secretKey: oX3WDSrpW9TU4fQe97j-n1cSkXt15wPTBTO0BNO9
+  bucket: volcanoblog
